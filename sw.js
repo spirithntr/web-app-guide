@@ -1,8 +1,8 @@
 'use strict';
 
-importScripts('sw-toolbox.js');
+importScripts('web-app-guide/sw-toolbox.js');
 
-toolbox.precache(["index.html","style/style.css", "intersection.png"]);
+toolbox.precache(["web-app-guide/index.html","web-app-guide/style/style.css", "web-app-guide/intersection.png"]);
 
 toolbox.router.get('/images/*', toolbox.cacheFirst);
 
