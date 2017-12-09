@@ -2,7 +2,7 @@
   "name": "web-app tutorial",
     "short_name": "PWA tutorial",
     "description": "web-app tutorial for UDSU",
-    "lang": "ru-RU",
+    "lang": "en-GB",
     "start_url": "/",
     "display": "standalone",
     "theme_color": "#DBFBFF",
