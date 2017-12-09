@@ -1,4 +1,5 @@
 'use strict';
+app.use('/', routes)
 
 importScripts('sw-toolbox.js');
 
