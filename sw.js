@@ -6,6 +6,6 @@ toolbox.precache(["/web-app-guide/index.html","/web-app-guide/style/style.css", 
 
 toolbox.router.get('/web-app-guide/images/*', toolbox.cacheFirst);
 
-toolbox.router.get('/web-app-guide/*', toolbox.networkFirst, {
+toolbox.router.get('/*', toolbox.networkFirst, {
   networkTimeoutSeconds: 5
 });
